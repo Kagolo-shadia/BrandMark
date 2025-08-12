@@ -39,6 +39,7 @@ body {
   box-sizing: border-box;
   max-width: 800px;
   margin: 0 auto;
+  
 }
 
 
@@ -311,7 +312,7 @@ margin: 6px;
   color: black;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header {
     height: 17vh;
     top: 0;
@@ -363,6 +364,10 @@ margin: 6px;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+  }
+
+  #image{
+    display: none;
   }
 
   #job-table {
